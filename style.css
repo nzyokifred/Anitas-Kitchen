@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: url("/landing.jpg") no-repeat center/cover;
+    background: url("landing.jpg") no-repeat center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,14 +71,14 @@ em {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
     margin-inline-end: 0px;
     margin-inline-start: 0px;
 }
 
 .breakfast {
-    background: url(/breakfast.jpg) no-repeat center;
+    background: url("breakfast.jpg") no-repeat center;
     color: #fff;
     background-size: cover;
     display: flex;
@@ -90,7 +90,7 @@ p {
 }
 
 .lunch {
-    background: url(/lunch.jpg) no-repeat center;
+    background: url("lunch.jpg") no-repeat center;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@ p {
 }
 
 .dinner {
-    background: url(/dinner.jpg) no-repeat center;
+    background: url("dinner.jpg") no-repeat center;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -191,9 +191,9 @@ h3 {
     color: #f15a29;
     border: 1px solid #f15a29;
     font-weight: 700;
-    padding: 1em 1em;
+    padding: 16px 16px;
     border-radius: 5px;
-    margin-top: 1em;
+    margin-top: 16px;
     text-transform: uppercase;
     width: 200px;
     display: block;
@@ -202,7 +202,7 @@ h3 {
 }
 
 .menu-bar {
-    background: url(/foodsBg.jpg) no-repeat center;
+    background: url("foodsBg.jpg") no-repeat center;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
@@ -243,6 +243,12 @@ ul {
     padding-right: 10px;
 }
 
+.navigator {
+    margin: 10%;
+    color: #f15a29;
+    font-weight: 800;
+}
+
 .reviews {
     justify-content: center;
     align-items: center;
@@ -278,7 +284,7 @@ h4 {
 }
 
 .subscribe {
-    background: url(/subscribe.jpg) no-repeat center;
+    background: url("subscribe.jpg") no-repeat center;
     display: flex;
     align-items: center;
     text-align: center;
