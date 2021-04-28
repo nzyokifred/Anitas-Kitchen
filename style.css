@@ -50,18 +50,23 @@ em {
     flex-direction: column;
 }
 
-.column-2 {
-    width: 25%;
-    height: 250px;
+.hover-1:hover {
+    background-color: white;
+    opacity: 0.5;
 }
 
-.hpt {
-    height: 50%;
-}
-
-.column {
+.happy-hour {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.party-time {
+    background: #f15a29;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
 p {
