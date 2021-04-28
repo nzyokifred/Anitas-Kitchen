@@ -168,3 +168,30 @@ viewing-1 .fa {
     margin: 0 auto;
     display: block;
 }
+
+#description-2 h3 {
+    margin: 1.2em 0;
+    font-size: 45px;
+}
+
+.drink-images {
+    display: flex;
+    border: 10px solid #fff;
+    box-shadow: 2px 2px 20px gray;
+}
+
+.viewing-2 {
+    position: absolute;
+    left: 30%;
+    color: #f15a29;
+    border: 1px solid #f15a29;
+    font-weight: 700;
+    padding: 1em 1em;
+    border-radius: 5px;
+    margin-top: 1em;
+    text-transform: uppercase;
+    width: 200px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
