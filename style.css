@@ -283,3 +283,14 @@ h4 {
     font-size: 30px;
     font-weight: 900;
 }
+
+footer {
+    background: #f15a29;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+}
