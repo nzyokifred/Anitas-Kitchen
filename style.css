@@ -35,3 +35,17 @@ em {
     justify-content: center;
     display: flex;
 }
+
+.column-2 {
+    width: 25%;
+    height: 250px;
+}
+
+.hpt {
+    height: 50%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
