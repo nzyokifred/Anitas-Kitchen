@@ -148,3 +148,23 @@ h3 {
     position: absolute;
     display: block;
 }
+
+viewing-1 .fa {
+    font-size: 18px;
+}
+
+.Drinks {
+    display: flex;
+}
+
+.description-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.description-3 {
+    text-align: right;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
