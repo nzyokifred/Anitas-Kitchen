@@ -20,3 +20,18 @@ header {
     text-align: center;
     height: 700px;
 }
+
+.logo {
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+
+em {
+    font-weight: 700;
+}
+
+.offers {
+    justify-content: center;
+    display: flex;
+}
