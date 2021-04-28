@@ -195,3 +195,31 @@ viewing-1 .fa {
     text-align: center;
     cursor: pointer;
 }
+
+.menu-bar {
+    background: url(/foodsBg.jpg) no-repeat center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    height: 680px;
+}
+
+.inner-menu {
+    background: #fff;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.our-food {
+    display: flex;
+}
+
+.our-food li {
+    width: 25%;
+    list-style: none;
+    text-align: center;
+    padding-top: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.514);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
