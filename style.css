@@ -63,3 +63,35 @@ em {
     display: flex;
     flex-direction: column;
 }
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+}
+
+.breakfast {
+    background: url(/breakfast.jpg) no-repeat center;
+    color: #fff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.lunch {
+    background: url(/lunch.jpg) no-repeat center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
